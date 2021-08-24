@@ -1,17 +1,13 @@
 
 #ifndef CABECERAS_H
 #define CABECERAS_H
+#define LENGHT(x) (sizeof(x)/sizeof((x)[0])) 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+   void Recorrer (int vector[],int tamanio);
+      
+    
 
 
-
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif /* CABECERAS_H */
 
